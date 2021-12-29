@@ -190,7 +190,7 @@ def delete_super_triangle(list_points, list_trianlges):  # supprime les 3 pts du
 
 
 # lien vers le fichier .dll, à changer
-lib = ct.CDLL("C:\\utt\\.Semestre\\TC03 - A21\\NF06\\projets\\Final_project_Delauney\\liblibcprojet.dll")
+lib = ct.CDLL("C:\\user\\...\\liblibcprojet.dll")
 
 # Main
 points, triangles = delauney_algo()
